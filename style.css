@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('papel-de-parede-adesivo-desenho-lapis-de-cor-infantil.jpg');
+    background-size: cover; 
+    background-repeat: repeat; 
+    background-color: aquamarine;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #ffffff;
+    text-shadow: 
+    -2px -2px 0 #000,  
+    2px -2px 0 #000,   
+    -2px 2px 0 #000,   
+    2px 2px 0 #000;    
+font-size: 36px;       
+margin: 20px 0;  
+    margin-bottom: 20px;
+}
+
+input,
+button {
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid #030202;
+}
+
+button {
+    background-color: #ffa07a;
+    color: rgb(7, 0, 0);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #d81a26;
+}
+
+#tabuada {
+    margin-top: 20px;
+}
+
+.tabuada-item {
+    background-color: #ffa07a;
+    border: 2px solid #0b0a0a;
+    border-radius: 10px;
+    margin: 5px auto;
+    padding: 10px;
+    width: 50%;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.tabuada-item:hover {
+    transform: scale(1.05);
+    background-color: rgb(10, 133, 249);
+
+}
+
+.tabuada-item h2 {
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .tabuada-item {
+        width: 90%;
+    }
+
+}
